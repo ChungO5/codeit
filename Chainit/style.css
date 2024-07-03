@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, "Noto Sans KR", sans-serif;
+    margin: 0;
+}
+
+#titleBox {
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8287a4;
+    padding: 12px 40px 280px;
+}
+
+#titleBox div {
+    width: 720px;
+    margin: auto;
+}
+
+#headText {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+
+#titleBox div p {
+    margin: 0;
+}
+
+#title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 12px 0 14px;
+}
+
+#text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.textBox div {
+    width: 720px;
+    margin: auto;
+    padding: 32px 0 64px;
+    text-align: center;
+}
+
+.textBox.even {
+    background-color: #f1f4fa;
+}
+
+.textBox h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #161346;
+    margin: 42px 0;
+}
+
+.textBox img {
+    display: block;
+    width: 720px;
+    height: auto;
+    border-radius: 24px;
+}
+
+.textBox p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c497b;
+    margin: 32px 0;
+    text-align: left;
+}
+
+.textBox a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #413c91;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.Footer {
+    background-color: #161346;
+    margin: 0;
+    padding: 40px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Footer div {
+    width: 720px;
+    margin: auto;
+}
+
+.Footer h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.Footer .text {
+    color: #8287a4;
+    margin: 8px 0 32px;
+}
+
+.Footer a {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #413c91;
+    border-radius: 9999px;
+}
+
+.Footer.second {
+    background-color: #120f3f;
+    margin: 0;
+    padding: 32px;
+    text-align: left;
+}
+
+.Footer.second p {
+    margin: 0;
+}
