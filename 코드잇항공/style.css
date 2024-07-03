@@ -1,7 +1,142 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Titillium Web", "Noto Sans KR", sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+hr {
+    width: 640px;
+    color: #b6bfd3;
+    border: 1px dashed;
+}
+
+#title {
+    background-color: #11172b;
+    margin: 0;
+    padding: 12px;
+}
+
+#title div {
+    width: 640px;
+    margin: auto;
+}
+
+#title h1 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 12px;
+}
+
+#title img {
+    width: auto;
+    height: 24px;
+    margin: 0 12px 0 0;
+}
+
+#departure {
+    margin: 40px 0 20px;
+}
+
+#departure div {
+    background-color: #ebeff8;
+    width: 640px;
+    margin: auto;
+    padding: 24px 32px;
+    border-radius: 8px;
+}
+
+#departure h2 {
+    font-size: 16px;
+    color: #b3bdd5;
+    margin: 0px;
+}
+
+#departure h1 {
+    font-size: 32px;
+    color: #000000;
+    margin: 8px 0;
+}
+
+#departure #date {
+    display: inline-block;
+    width: auto;
+    padding: 8px 24px;
+    margin: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#departure p {
+    margin: 0;
+    font-size: 12px;
+    color: #b3bdd5;
+}
+
+#entry {
+    margin: 20px;
+}
+
+#entry div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 640px;
+    margin: auto;
+    padding: 8px 24px 24px;
+}
+
+#entry h2 {
+    color: #16bf97;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+#entry hr {
+    margin: 8px -24px 22px;
+    border: 1px solid;
+    width: 640px;
+    color: #dbf1ec;
+}
+
+#entry #info {
+    padding: 0;
+    width: auto;
+}
+
+#entry h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3bdd5;
+    margin: 4px 0;
+}
+
+#entry p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a345e;
+    margin: 0;
+}
+
+#entry #buttonBox {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    text-align: right;
+}
+
+#entry a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a345e;
+    margin-left: 24px;
+}
+
+#entry #soldout {
+    color: #dce0e8;
 }
