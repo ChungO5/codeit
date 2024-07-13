@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+div {
+    float: left;
+}
+
+#div1 {
+    width: 100%;
+    height: 60px;
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+}
+
+#div1 h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#div2 {
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/banner_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#div3 {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+#div3 h1 {
+    font-size: 20px;
+    color: #1b1b1b;
+    margin: 10px 0 30px;
+}
+
+#div3 h2 {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+#div3 p {
+    font-size: 16px;
+    color: #7a7a7a;
+    margin: 0;
+}
+
+#div4 {
+    width: 100%;
+    height: 385px;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#div5 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div5 h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    padding: 9px 40px;
+}
+
+#div6 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 767px) {
+    #div2 {
+        height: 568px;
+    }
+    #div3 {
+        height: 282px;
+        padding: 65px;
+    }
+    #div4 {
+        height: 360px;
+        width: 50%;
+    }
+    #div5 {
+        height: 180px;
+        width: 50%;
+    }
+    #div6 {
+        height: 180px;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #div2 {
+        height: 700px;
+        width: 50%;
+    }
+    #div3 {
+        height: 350px;
+        width: 50%;
+    }
+    #div4 {
+        height: 350px;
+        width: 25%;
+    }
+    #div5 {
+        height: 175px;
+        width: 25%;
+    }
+    #div6 {
+        height: 175px;
+        width: 25%;
+    }
+}
